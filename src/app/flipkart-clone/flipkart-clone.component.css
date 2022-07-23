@@ -1,0 +1,4 @@
+.row :hover{
+    transform: scale(1.01);
+    border-color: aqua;
+}

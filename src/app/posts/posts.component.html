@@ -1,0 +1,15 @@
+<h1 class="bg-secondary text-light text-center p-3 m-3" >Posts</h1>
+<div  class="col col-12  col-sm-12 mt-2 bg-light  col-md-12 col-lg-12 col-xl-12">
+    <div class="row g-3 ">
+        <div *ngFor="let i of data" class="col col-12 mb-3 col-sm-6 col-md-4 col-lg-3 col-xl-3">
+            <div class="card" style="width: 18rem;height:24rem">
+                <div class="card-body">
+                  <h5 class="card-title">id: {{i.id}} <br>
+                     userId :{{i.userId}}</h5>
+
+                    <h5 class="card-title font-weight-bold text-center text-capitalize">{{i.title}}</h5>
+                    <p class="card-text"> price {{i.body}} </p>
+                  
+              </div>
+        </div>
+    </div>

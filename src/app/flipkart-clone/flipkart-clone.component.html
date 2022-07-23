@@ -1,0 +1,16 @@
+<h1 class="bg-secondary text-light text-center p-3 m-3" >Shopping</h1>
+
+  <div  class="col col-12  col-sm-12 m-5 col-md-12 col-lg-12 col-xl-12">
+    <div class="row g-3 ">
+        <div *ngFor="let i of data" class="col col-12 mb-3 col-sm-6 col-md-4 col-lg-3 col-xl-3">
+            <div class="card" style="width: 17rem;">
+                <img class="card-img-top" height="250px" width="200px" src="{{i.image}}" alt="Card image cap">
+                <div class="card-body">
+                  <h5 class="card-title">{{i.title}}</h5>
+                  <p class="card-text"> price {{i.price}} </p>
+                  <a href="#" class="btn btn-primary">Add to wishlist</a>
+                </div>
+              </div>
+        </div>
+    </div>
+</div>s
